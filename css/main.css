@@ -1,7 +1,16 @@
 html {
   box-sizing: border-box;
+  background-color: #f0eee8;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body a {
+  text-decoration: none;
+  color: #512200;
+  background-color: #cabdb2;
+  margin: 0 0 1rem;
+  border: 3px #785439;
 }
