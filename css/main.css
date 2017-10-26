@@ -12,11 +12,12 @@ body {
   background-color: #dcd4cd;
   margin: 0;
   border: 3px solid #9a816d;
-  border-radius: 3px;
+  border-radius: 6px;
   padding: .75rem 1rem;
 }
 
 .link-card {
+  background-color: #dcd4cd;
   display: inline;
   text-decoration: none;
   color: #512200;
@@ -36,16 +37,25 @@ body {
   padding: .75rem 0 1rem;
 }
 
-body .link-card:hover {
+.link-card:hover {
   background-color: #cabdb2;
 }
 
-section dl {
+.what {
+  display: inline-block;
   border-top: 2px solid #9a816d;
   border-bottom: 2px solid #9a816d;
   padding: .5em 0;
   margin: 0;
   font-size: .875rem;
+}
+
+dt {
+  width: 50%;
+}
+
+dd {
+  font-style: italic;
 }
 
 .btn-wrap {
@@ -61,6 +71,6 @@ section dl {
   display: inline-block;
   background-color: #785439;
   color: #fff;
-  padding: .5em .4em;
+  padding: .5em .75em;
   border-radius: 8px;
 }
