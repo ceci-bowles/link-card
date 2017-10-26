@@ -50,12 +50,20 @@ body {
   font-size: .875rem;
 }
 
+dl{
+    line-height: 1.2rem;
+}
+
+dd, dt {
+  display: inline-block;
+}
 dt {
   width: 50%;
 }
 
 dd {
   font-style: italic;
+  margin: 0;
 }
 
 .btn-wrap {
